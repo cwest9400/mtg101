@@ -7,11 +7,24 @@
         <div class="navbar-hamburger" @click="showMenu = !showMenu">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
         </div>
+        <div class="navbar-menu" :class="{ 'navbar-menu-visible': showMenu }">
+      <!-- Menu items -->
+      <p>Articles</p>
+      <p>Decks</p>
+      <p>Packages</p>
+    </div>
     </div>
 </nav>
 </template>
 
 <script>
+export default {
+    data() {
+        return{
+            showMenu: false
+        };
+    }
+}
 </script>
 
 <style>
@@ -40,6 +53,19 @@
 }
 .tagline {
     margin: 0;
+}
+.navbar-menu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #fff;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+  z-index: 998;
+  display: none;
+}
+
+.navbar-menu-visible {
+  display: block;
 }
 
 </style>
