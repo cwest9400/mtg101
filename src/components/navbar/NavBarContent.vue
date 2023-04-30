@@ -1,60 +1,67 @@
 <template>
-<nav class="navbar">
+  <nav class="navbar">
     <div class="navbar-firstrow-content">
-        <h1 class="title">
-            six6wurm
-        </h1>
-        <div class="navbar-hamburger" @click="showMenu = !showMenu">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
-                <path fill="currentColor" d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
-            </svg>
-        </div>
-        <div class="navbar-menu" :class="{ 'navbar-menu-visible': showMenu }">
-      <!-- Menu items -->
-      <p>Articles</p>
-      <p>Decks</p>
-      <p>Packages</p>
+      <h1 class="title">six6wurm</h1>
+      <div class="navbar-hamburger" @click="showMenu = !showMenu">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          width="24"
+          height="24"
+        >
+          <path
+            fill="currentColor"
+            d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+          />
+        </svg>
+      </div>
+      <div class="navbar-menu" :class="{ 'navbar-menu-visible': showMenu }">
+        <!-- Menu items -->
+        <p>Articles</p>
+        <p>Decks</p>
+        <p>Packages</p>
+        <p>Set Reviews</p>
+      </div>
     </div>
-    </div>
-</nav>
+  </nav>
 </template>
 
 <script>
 export default {
-    data() {
-        return{
-            showMenu: false
-        };
-    }
-}
+  data() {
+    return {
+      showMenu: false,
+    };
+  },
+};
 </script>
 
 <style>
 .navbar {
   position: fixed;
   top: 0;
-  right:0;
-  left:0;
+  right: 0;
+  left: 0;
   background-color: #ffffff;
   box-shadow: 0 2px 0px rgba(0, 0, 0, 0.1);
   z-index: 999;
   padding: 16px;
 }
 .navbar-firstrow-content {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
 .navbar-hamburger {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .title {
-    margin: 0;
+  margin: 0;
 }
 .tagline {
-    margin: 0;
+  margin: 0;
 }
 .navbar-menu {
   position: absolute;
@@ -63,14 +70,14 @@ export default {
   background-color: #fff;
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
   z-index: 998;
-  display: none;
-  transform: translateX(100%); /* start offscreen */
-  transition: transform 0.3s ease-in-out; /* add transition */
+  opacity: 0; /* start with opacity 0 */
+  transform: translateX(100%);
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out; /* add opacity transition */
+  width: 75%;
 }
 
 .navbar-menu-visible {
-  display: block;
-  transform: translateX(0); /* slide in from right side */
+  opacity: 1; /* change opacity to 1 to show the menu */
+  transform: translateX(0);
 }
-
 </style>
