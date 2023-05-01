@@ -1,14 +1,17 @@
 <template>
   <NavBarContent />
+  <MostRecentPost />
 </template>
 
 <script>
 import NavBarContent from './components/navbar/NavBarContent.vue'
+import MostRecentPost from './components/MostRecentPost.vue'
 
 export default {
   name: 'App',
   components: {
-    NavBarContent
+    NavBarContent,
+    MostRecentPost,
   }
 }
 </script>
