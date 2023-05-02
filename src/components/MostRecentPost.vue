@@ -11,7 +11,7 @@
 <script>
 </script>
 
-<style scoped>
+<style>
 * {
   box-sizing: border-box;
 }
@@ -35,7 +35,8 @@ margin: 0;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    
+    width: 100%;
+    padding-top: 24px;
     border: solid 3px purple;
     color: white;
     

@@ -59,6 +59,9 @@ export default {
 </script>
 
 <style>
+* {
+  box-sizing: border-box;
+}
 .navbar {
   position: fixed;
   top: 0;
@@ -67,11 +70,15 @@ export default {
   background-color: #ffffff;
   box-shadow: 0 2px 0px rgba(0, 0, 0, 0.1);
   z-index: 999;
-  padding: 16px;
+  padding: 0 5% 0 5%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
 }
 .navbar-firstrow-content {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   width: 100%;
 }
 .navbar-hamburger {
