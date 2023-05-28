@@ -1,6 +1,10 @@
 <template>
   <NavBarContent />
   <MostRecentPost />
+  <MostRecentPost />
+  <MostRecentPost />
+  <MostRecentPost />
+  <MostRecentPost />
 </template>
 
 <script>
