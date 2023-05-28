@@ -20,7 +20,7 @@ h1, p {
 margin: 0;
 }
 .hero-container {
-    background-color: aqua;
+    background-color: rgb(0, 0, 0);
     display: flex;
     justify-content: flex-start;
     width: 100%;
