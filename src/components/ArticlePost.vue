@@ -21,7 +21,7 @@ export default {
 }
 
 h1 {
-  font-size: larger;
+  font-size: x-large;
 }
 
 h1, p {
@@ -63,15 +63,11 @@ button:focus {
     height: 100%;
     background-image: url("https://cards.scryfall.io/art_crop/front/5/d/5d275f04-cc60-4e3f-95cc-3d02bc916b82.jpg?1599710280");
     background-repeat: no-repeat;
-    
     background-size: cover;
     background-position: top center;
     margin-top: 36px;
     padding: 36px 8px;
-    border-radius: 0 0 8px 8px;
 
-    
-   
 }
 
 .gradient-overlay {
@@ -96,9 +92,7 @@ button:focus {
     border: solid 3px purple;
     color: white;
     row-gap: 18px;
-    
-    
- 
+
 }
 
 </style>
