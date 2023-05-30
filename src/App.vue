@@ -1,21 +1,21 @@
 <template>
   <NavBarContent />
-  <MostRecentPost />
-  <MostRecentPost />
-  <MostRecentPost />
-  <MostRecentPost />
-  <MostRecentPost />
+  <ArticlePost />
+  <ArticlePost />
+  <ArticlePost />
+  <ArticlePost />
+  <ArticlePost />
 </template>
 
 <script>
 import NavBarContent from './components/navbar/NavBarContent.vue'
-import MostRecentPost from './components/MostRecentPost.vue'
+import ArticlePost from './components/ArticlePost.vue'
 
 export default {
   name: 'App',
   components: {
     NavBarContent,
-    MostRecentPost,
+    ArticlePost,
   }
 }
 </script>

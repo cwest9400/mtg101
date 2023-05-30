@@ -11,7 +11,7 @@
 
 <script>
 export default {
-  name: 'MostRecentPost',
+  name: 'ArticlePost',
 }
 </script>
 
