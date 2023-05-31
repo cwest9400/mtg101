@@ -39,12 +39,13 @@
       </div>
       <div class="navbar-menu" :class="{ 'navbar-menu-visible': showMenu }">
         <!-- Menu items -->
+        <p>About</p>
         <p>Articles</p>
         <p>Decks</p>
-        <p>Packages</p>
         <p>Set Reviews</p>
       </div>
     </div>
+    <div class="menu-overlay" :class="{ 'menu-overlay-visible': showMenu }"></div>
   </nav>
 </template>
 
@@ -62,6 +63,9 @@ export default {
 * {
   box-sizing: border-box;
 }
+p {
+  padding: 8px;
+}
 .navbar {
   position: fixed;
   top: 0;
@@ -70,7 +74,7 @@ export default {
   background-color: #ffffff;
   box-shadow: 0 2px 0px rgba(0, 0, 0, 0.1);
   z-index: 999;
-  padding: 0 5% 0 5%;
+  padding: 0 10% 0 10%;
   height: 80px;
   display: flex;
   justify-content: center;
@@ -102,11 +106,38 @@ export default {
   opacity: 0; /* start with opacity 0 */
   transform: translateX(100%);
   transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out; /* add opacity transition */
-  width: 75%;
+  width: auto;
+  padding: 16px 24px;
+  font-size: 16px;
+  text-align: left;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  
+
 }
 
 .navbar-menu-visible {
   opacity: 1; /* change opacity to 1 to show the menu */
   transform: translateX(0);
 }
+
+.menu-overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #1a092a;
+  z-index: 997;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.menu-overlay-visible {
+  opacity: .4;
+  pointer-events: none;
+}
+
 </style>
