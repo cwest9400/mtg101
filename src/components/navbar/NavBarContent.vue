@@ -105,8 +105,8 @@ p {
   z-index: 998;
   opacity: 0; /* start with opacity 0 */
   transform: translateX(100%);
-  -webkit-transition: -webkit-transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
-  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out; /* add opacity transition */
+  -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   width: auto;
   padding: 16px 24px;
   font-size: 16px;
