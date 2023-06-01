@@ -121,6 +121,7 @@ p {
 .navbar-menu-visible {
   opacity: 1; /* change opacity to 1 to show the menu */
   transform: translateX(0);
+  -webkit-transform: translateX(0);
 }
 
 .menu-overlay {
