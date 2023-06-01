@@ -30,7 +30,7 @@
   }
   
   button {
-    background-color: #5c2b94;
+    background-color: #14de28;
     color: aliceblue;
     height: 40px;
     border: none;
@@ -56,28 +56,13 @@
   
   .hero-container {
     position: relative;
-      background-color: rgb(0, 0, 0);
+      background-color: #2c3e50;
       display: flex;
       justify-content: flex-start;
       width: 100%;
       height: 100%;
-      background-image: url("https://cards.scryfall.io/art_crop/front/5/d/5d275f04-cc60-4e3f-95cc-3d02bc916b82.jpg?1599710280");
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: top center;
       margin-top: 36px;
       padding: 36px 8px;
-  
-  }
-  
-  .gradient-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,.6) 90%);
-    pointer-events: none; /* allows clicking through the overlay */
   }
   
   .most-recent-post {
