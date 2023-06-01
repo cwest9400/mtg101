@@ -42,7 +42,6 @@
         <p>About</p>
         <p>Articles</p>
         <p>Decks</p>
-        <p>Set Reviews</p>
       </div>
     </div>
     <div class="menu-overlay" :class="{ 'menu-overlay-visible': showMenu }"></div>

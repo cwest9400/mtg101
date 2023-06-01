@@ -56,7 +56,7 @@ button:focus {
 
 .hero-container {
   position: relative;
-    background-color: rgb(0, 0, 0);
+    background-color: #170a26;
     display: flex;
     justify-content: flex-start;
     width: 100%;
@@ -64,10 +64,9 @@ button:focus {
     background-image: url("https://cards.scryfall.io/art_crop/front/5/d/5d275f04-cc60-4e3f-95cc-3d02bc916b82.jpg?1599710280");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top center;
+    background-position: top right;
     margin-top: 36px;
     padding: 36px 8px;
-
 }
 
 .gradient-overlay {
@@ -94,5 +93,15 @@ button:focus {
     row-gap: 18px;
 
 }
+@media (min-width: 500px) {
+  .hero-container {
+    background-size: contain;
+  }
+  .gradient-overlay {
+    background: linear-gradient(to right, rgba(0, 0, 0, 1) 70%, rgba(0,0,0,0) 80%);
+
+  }
+}
+
 
 </style>

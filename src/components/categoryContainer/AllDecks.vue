@@ -15,7 +15,7 @@
   }
   </script>
   
-  <style>
+  <style scoped>
   * {
     box-sizing: border-box;
   }
@@ -56,7 +56,7 @@
   
   .hero-container {
     position: relative;
-      background-color: #2c3e50;
+      background-color: #5c2b94;
       display: flex;
       justify-content: flex-start;
       width: 100%;

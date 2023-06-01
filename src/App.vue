@@ -24,6 +24,7 @@ export default {
     AllArticles,
   }
 }
+
 </script>
 
 <style>
@@ -44,6 +45,7 @@ body {
   .card-container {
     display: flex;
     flex-direction: row;
+    column-gap: 5%;
   }
 }
 </style>
