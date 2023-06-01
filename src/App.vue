@@ -1,21 +1,21 @@
 <template>
   <NavBarContent />
   <ArticlePost />
-  <ArticlePost />
-  <ArticlePost />
-  <ArticlePost />
-  <ArticlePost />
+  <AllDecks />
+  
 </template>
 
 <script>
 import NavBarContent from './components/navbar/NavBarContent.vue'
 import ArticlePost from './components/ArticlePost.vue'
+import AllDecks from './components/AllDecks.vue'
 
 export default {
   name: 'App',
   components: {
     NavBarContent,
     ArticlePost,
+    AllDecks,
   }
 }
 </script>
