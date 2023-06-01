@@ -3,6 +3,7 @@
   <ArticlePost />
   <div class="card-container">
     <AllDecks />
+    <AllArticles />
   </div>
   
   
@@ -11,7 +12,8 @@
 <script>
 import NavBarContent from './components/navbar/NavBarContent.vue'
 import ArticlePost from './components/ArticlePost.vue'
-import AllDecks from './components/AllDecks.vue'
+import AllDecks from './components/categoryContainer/AllDecks.vue'
+import AllArticles from './components/categoryContainer/AllArticles.vue'
 
 export default {
   name: 'App',
@@ -19,6 +21,7 @@ export default {
     NavBarContent,
     ArticlePost,
     AllDecks,
+    AllArticles,
   }
 }
 </script>
@@ -37,7 +40,10 @@ export default {
 body {
   margin: 0;
 }
-.card-container {
-  display: flex;
+@media (min-width: 500px) {
+  .card-container {
+    display: flex;
+    flex-direction: row;
+  }
 }
 </style>
