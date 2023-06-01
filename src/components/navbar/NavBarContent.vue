@@ -105,6 +105,7 @@ p {
   z-index: 998;
   opacity: 0; /* start with opacity 0 */
   transform: translateX(100%);
+  -webkit-transition: -webkit-transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
   transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out; /* add opacity transition */
   width: auto;
   padding: 16px 24px;
@@ -132,6 +133,7 @@ p {
   z-index: 997;
   opacity: 0;
   pointer-events: none;
+  -webkit-transition: opacity 0.3s ease-in-out;
   transition: opacity 0.3s ease-in-out;
 }
 
