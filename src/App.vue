@@ -1,7 +1,10 @@
 <template>
   <NavBarContent />
   <ArticlePost />
-  <AllDecks />
+  <div class="card-container">
+    <AllDecks />
+  </div>
+  
   
 </template>
 
@@ -33,5 +36,8 @@ export default {
 }
 body {
   margin: 0;
+}
+.card-container {
+  display: flex;
 }
 </style>
