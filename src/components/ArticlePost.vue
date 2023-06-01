@@ -88,7 +88,7 @@ button:focus {
     justify-content: flex-start;
     width: 100%;
     padding-top: 24px;
-    border: solid 3px purple;
+    /* border: solid 3px purple; */
     color: white;
     row-gap: 18px;
 
