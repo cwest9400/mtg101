@@ -15,7 +15,7 @@
   }
   </script>
   
-  <style>
+  <style scoped>
   * {
     box-sizing: border-box;
   }
@@ -30,7 +30,7 @@
   }
   
   button {
-    background-color: #14de28;
+    background-color: #5c2b94;
     color: aliceblue;
     height: 40px;
     border: none;
@@ -56,7 +56,7 @@
   
   .hero-container {
     position: relative;
-      background-color: #2c3e50;
+      background-color: black;
       display: flex;
       justify-content: flex-start;
       width: 100%;
@@ -77,6 +77,7 @@
       border: solid 3px purple;
       color: white;
       row-gap: 18px;
+      
   
   }
   

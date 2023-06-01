@@ -30,7 +30,7 @@
   }
   
   button {
-    background-color: #14de28;
+    background-color: #5c2b94;
     color: aliceblue;
     height: 40px;
     border: none;
@@ -56,7 +56,7 @@
   
   .hero-container {
     position: relative;
-      background-color: #5c2b94;
+      background-color: black;
       display: flex;
       justify-content: flex-start;
       width: 100%;
