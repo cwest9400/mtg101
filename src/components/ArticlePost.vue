@@ -4,7 +4,7 @@
     <div class="most-recent-post">
       <h1>Title of this really cool new blog post</h1>
       <p>by Magic Wizard</p>
-      <router-link to="/articles/*"><button>Read Now</button></router-link>
+      <router-link to="/article/budgetramp"><button>Read Now</button></router-link>
     </div>
   </div>
 </template>
