@@ -42,9 +42,9 @@
       </div>
       <div class="navbar-menu" :class="{ 'navbar-menu-visible': showMenu }">
         <!-- Menu items -->
-        <p><router-link to="/about">About</router-link></p>
-        <p><router-link to="/articles">Articles</router-link></p>
-        <p><router-link to="/decks">Decks</router-link></p>
+        <p><router-link to="/about" @click="showMenu = false">About</router-link></p>
+        <p><router-link to="/articles" @click="showMenu = false">Articles</router-link></p>
+        <p><router-link to="/decks" @click="showMenu = false">Decks</router-link></p>
       </div>
     </div>
     <div class="menu-overlay" :class="{ 'menu-overlay-visible': showMenu }"></div>
