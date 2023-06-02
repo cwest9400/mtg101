@@ -4,8 +4,9 @@
   <div class="card-container">
     <AllDecks />
     <AllArticles />
+
   </div>
-  
+  <RouterView></RouterView>
   
 </template>
 
@@ -24,6 +25,7 @@ export default {
     AllArticles,
   }
 }
+
 
 </script>
 
