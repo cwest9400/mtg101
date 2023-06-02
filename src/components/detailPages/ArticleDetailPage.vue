@@ -5,7 +5,7 @@
         <p>Author: Coolguy22</p>
         <p>Date: 00/00/00</p>
     </div>
-    <h1>RETURN HOME</h1>
+    <p>we want to dynamic render this page</p>
 </template>
 <!-- zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz -->
 

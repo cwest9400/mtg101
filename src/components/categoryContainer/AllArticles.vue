@@ -4,7 +4,7 @@
       <div class="most-recent-post">
         <h1>Articles</h1>
         
-        <router-link to="articles"><button>View</button></router-link>
+        <router-link to="/articles"><button>View</button></router-link>
       </div>
     </div>
   </template>

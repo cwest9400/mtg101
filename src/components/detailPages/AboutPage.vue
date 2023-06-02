@@ -4,7 +4,7 @@
         <p>hey what's it all about???</p>
         
     </div>
-    <h1>RETURN HOME</h1>
+    
 </template>
 <!-- zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz -->
 
