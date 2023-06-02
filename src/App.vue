@@ -36,6 +36,14 @@ export default {
 body {
   margin: 0;
 }
+a {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+  color: #2c3e50;
+}
+
 @media (min-width: 500px) {
   .card-container {
     display: flex;

@@ -1,7 +1,10 @@
 <template>
   <nav class="navbar">
     <div class="navbar-firstrow-content">
-      <h1 class="title">six6wurm</h1>
+      <h1 class="title">
+        <router-link to="/">six6wurm</router-link>
+        
+      </h1>
       <div class="navbar-hamburger" @click="showMenu = !showMenu">
         <!-- "Hamburger" icon if menu inactive -->
         <svg
@@ -39,9 +42,9 @@
       </div>
       <div class="navbar-menu" :class="{ 'navbar-menu-visible': showMenu }">
         <!-- Menu items -->
-        <p>About</p>
-        <p>Articles</p>
-        <p>Decks</p>
+        <p><router-link to="about">About</router-link></p>
+        <p><router-link to="articles">Articles</router-link></p>
+        <p><router-link to="decks">Decks</router-link></p>
       </div>
     </div>
     <div class="menu-overlay" :class="{ 'menu-overlay-visible': showMenu }"></div>
