@@ -1,28 +1,20 @@
 <template>
   <NavBarContent />
-  <ArticlePost />
-  <div class="card-container">
-    <AllDecks />
-    <AllArticles />
-
-  </div>
+  <HomePage />
   <RouterView></RouterView>
   
 </template>
 
 <script>
 import NavBarContent from './components/navbar/NavBarContent.vue'
-import ArticlePost from './components/ArticlePost.vue'
-import AllDecks from './components/categoryContainer/AllDecks.vue'
-import AllArticles from './components/categoryContainer/AllArticles.vue'
+import HomePage from './components/HomePage.vue'
+
 
 export default {
   name: 'App',
   components: {
     NavBarContent,
-    ArticlePost,
-    AllDecks,
-    AllArticles,
+    HomePage,
   }
 }
 
