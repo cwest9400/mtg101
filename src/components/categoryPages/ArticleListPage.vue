@@ -5,7 +5,20 @@
 <!-- zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz -->
 
 <script>
+import articlesData from '/Users/chriswest/DEV/projects/mtg101/articles.json';
 
+export default {
+    data() {
+        return {
+            articles: []
+        };
+    },
+    created() {
+        this.articles = articlesData;
+    }
+
+}
+console.log(articlesData)
 </script>
 
 <!-- zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz -->
