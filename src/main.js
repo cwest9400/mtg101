@@ -19,8 +19,8 @@ const router = createRouter({
         {path: '/about', name: 'about', component: AboutPage},
         {path: '/articles', name: 'articles', component: ArticleListPage},
         {path: '/decks', name: 'decks', component: DeckListPage},
-        {path: '/article/:id', name: 'articleDetail', component: ArticleDetailPage},
-        {path: '/deck/:id', name: 'deckDetail', component: DeckDetailPage},
+        {path: '/article/:id', name: 'articleDetail', component: ArticleDetailPage, props:true},
+        {path: '/deck/:id', name: 'deckDetail', component: DeckDetailPage, props:true},
     ]
 })
 
