@@ -18,7 +18,7 @@
 <!-- zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz -->
 
 <script>
-import articlesData from "/Users/chriswest/DEV/projects/mtg101/src/assets/articles.json";
+import articlesData from "/Users/chriswest/DEV/projects/mtg101/public/articles.json";
 
 export default {
   data() {
@@ -30,7 +30,7 @@ export default {
     this.articles = articlesData;
   },
 };
-console.log(articlesData);
+// console.log(articlesData);
 </script>
 
 <!-- zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz -->
