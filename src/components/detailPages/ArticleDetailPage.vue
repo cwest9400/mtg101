@@ -19,7 +19,7 @@
 <!-- zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz -->
 
 <script>
-import articles from "/Users/chriswest/DEV/projects/mtg101/public/articles.json";
+import articles from "../articles.json";
 export default {
 data() {
     return {
