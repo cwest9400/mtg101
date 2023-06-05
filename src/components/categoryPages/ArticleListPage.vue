@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="main-content">
     <h1>List of all the articles page</h1>
     <p>
       we want to dynamic render this page with a list of all the articles. When
@@ -34,4 +34,8 @@ export default {
 </script>
 
 <!-- zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz -->
-<style scoped></style>
+<style scoped>
+.main-content {
+    margin-top: 80px;
+}
+</style>

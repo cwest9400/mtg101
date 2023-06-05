@@ -1,4 +1,5 @@
 <template>
+    <div class="main-content">
     <div v-if ="article">
   <h1>Article detail page</h1>
   <h1>{{ article.title }}</h1>
@@ -14,6 +15,7 @@
 </div>
 <div v-else>
     <p>something went wrong loading the article.</p>
+</div>
 </div>
 </template>
 <!-- zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz -->
@@ -42,4 +44,7 @@ mounted() {
 </script>
 
 <!-- zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz -->
-<style scoped></style>
+<style scoped>
+.main-content {
+    margin-top: 80px;
+}</style>
