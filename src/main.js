@@ -18,8 +18,8 @@ const router = createRouter({
         {path: '/', name: 'home', component: HomePage},
         {path: '/about', name: 'about', component: AboutPage},
         {path: '/articles', name: 'articles', component: ArticleListPage},
-        {path: '/decks', name: 'decks', component: DeckListPage},
         {path: '/article/:id', name: 'articleDetail', component: ArticleDetailPage, props:true},
+        {path: '/decks', name: 'decks', component: DeckListPage},
         {path: '/deck/:id', name: 'deckDetail', component: DeckDetailPage, props:true},
     ]
 })
