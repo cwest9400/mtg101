@@ -18,7 +18,7 @@
 <!-- zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz -->
 
 <script>
-import articlesData from "/Users/chriswest/DEV/projects/mtg101/articles.json";
+import articlesData from "/Users/chriswest/DEV/projects/mtg101/src/assets/articles.json";
 
 export default {
   data() {

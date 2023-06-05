@@ -19,7 +19,7 @@
 <!-- zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz -->
 
 <script>
-import articles from "/Users/chriswest/DEV/projects/mtg101/articles.json";
+import articles from "/Users/chriswest/DEV/projects/mtg101/src/assets/articles.json";
 export default {
 data() {
     return {
@@ -36,21 +36,6 @@ mounted() {
     this.article = articles.find(article => article.id === articleId)
 }
 
-//   props: {
-//     id: {type:String, required: true},
-//     title: {type:String},
-//     content: {type:String},
-//     author: {type:String},
-//     date: {type:String},
-//   },
-
-//   computed:{
-//     destination() {
-//         return articlesData.articles.find(
-//             (destination) => destination.id == parseInt.this.id
-//         )
-//     }
-//   }
   
 };
 
